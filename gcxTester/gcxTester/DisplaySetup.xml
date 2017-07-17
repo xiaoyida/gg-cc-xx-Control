@@ -1,0 +1,125 @@
+<gcxDocument version="21.0">
+  <gcxData>
+    <GCXCTRL sizeExtent_x="15108" sizeExtent_y="5821" designTimeSaved="0" graphLayers="1"/>
+    <GRAPH_GDI state="0" viewports="1" major_h="1" major_v="1" minor_h="0" minor_v="0">
+      <gcxFunction color="255" color2="0" visible="1" selected="1" linestyle="0" linewidth="1" cursors="Main/Delta/Sideband/Harmonic/Reference/Marker1/Marker2/Level/TagCursor/" reserved="0" YAxisType="0" render="Curve" viewPort="Default area">
+        <Calculator inx_x="1600" inx_x1="1440" inx_x2="1760" inx_z="0" RefCursor_XIndex="1067" Fundamental_Harmonic_Frequency="320" Marker1="1920" Marker2="2240" Sideband_Center="640" Sideband_Width="320" TagVectorZ="Index">
+          <BKDataPlugins>
+            <pool>
+              <class name="BKDopplerCorrection.DataPlugin.1"/>
+              <class name="BKPlugins.BKDataPluginTranspose.1"/>
+              <class name="BKDataStandardPlugins.BKDataPluginDoubleFormat.1"/>
+              <class name="BKDataStandardPlugins.BKDataPluginSpectralUnit.1"/>
+              <class name="BKDataStandardPlugins.BKDataPluginPhaseReverser.1"/>
+              <class name="BKDataStandardPlugins.BKDataPluginAcousticWeighting.1"/>
+              <class name="BKDataStandardPlugins.BKDataPluginIntegrator.1"/>
+              <class name="BKDataStandardPlugins.BKDataPluginCoordinate.1"/>
+              <class name="BKDataStandardPlugins.BKDataPluginUnit"/>
+              <class name="BKDataStandardPlugins.BKDataPluginDB.1"/>
+              <class name="PassBySpeed.DataPlugin.1"/>
+              <class name="BKDataSQPlugins.BKDataPluginLoudnessLevel"/>
+            </pool>
+            <BKDataPlugin progid="BKDataPlugin.BKDataPluginTranspose">
+              <Parameter name="Transpose" vtType="VT_BSTR" value="No"/>
+            </BKDataPlugin>
+            <BKDataPlugin ProgID="BKDataStandardPlugins.BKDataPluginDoubleFormat">
+            </BKDataPlugin>
+            <BKDataPlugin ProgID="BKDataStandardPlugins.BKDataPluginSpectralUnit">
+              <Parameter name="Unit" vtType="VT_BSTR" value="RMS" hidden="0"/>
+            </BKDataPlugin>
+            <BKDataPlugin ProgID="BKDataStandardPlugins.BKDataPluginAcousticWeighting">
+              <Parameter name="Weighting" vtType="VT_BSTR" value="AsInput" hidden="0"/>
+            </BKDataPlugin>
+            <BKDataPlugin ProgID="BKDataStandardPlugins.BKDataPluginIntegrator">
+              <Parameter name="jwWeighting" vtType="VT_BSTR" value="None" hidden="0"/>
+            </BKDataPlugin>
+            <BKDataPlugin ProgID="BKDataStandardPlugins.BKDataPluginCoordinate">
+              <Parameter name="Coordinate" vtType="VT_BSTR" value="Real" hidden="0"/>
+            </BKDataPlugin>
+            <BKDataPlugin ProgID="BKDataStandardPlugins.BKDataPluginUnit">
+              <Parameter name="Unit System" vtType="VT_BSTR" value="SI" hidden="0"/>
+            </BKDataPlugin>
+          </BKDataPlugins>
+          <BKAttributeGroup groupName="Cursors">
+            <BKAttribute name="DeltaCursorCenterType" vtType="VT_I4" value="1"/>
+            <BKAttribute name="DeltaCursorMinimumWidth" vtType="VT_R8" value="0"/>
+            <BKAttribute name="DeltaCursorMinimumWidthImposed" vtType="VT_I4" value="0"/>
+            <BKAttribute name="DeltaCursorWidthType" vtType="VT_I4" value="1"/>
+            <BKAttribute name="DeltaIndex_X1" vtType="VT_I4" value="1440"/>
+            <BKAttribute name="DeltaIndex_X2" vtType="VT_I4" value="1760"/>
+            <BKAttribute name="Harmonic_Count" vtType="VT_I4" value="10"/>
+            <BKAttribute name="Harmonic_X" vtType="VT_R8" value="320.000004768372"/>
+            <BKAttribute name="MainIndex_X" vtType="VT_I4" value="1600"/>
+            <BKAttribute name="MainIndex_Z" vtType="VT_I4" value="0"/>
+            <BKAttribute name="MarkValue_X1" vtType="VT_R8" value="1920.00007629395"/>
+            <BKAttribute name="MarkValue_X2" vtType="VT_R8" value="2239.99996185303"/>
+            <BKAttribute name="RefIndex_X" vtType="VT_I4" value="1067"/>
+            <BKAttribute name="Sideband_Center_X" vtType="VT_R8" value="640.000009536743"/>
+            <BKAttribute name="Sideband_Count" vtType="VT_I4" value="10"/>
+            <BKAttribute name="Sideband_Width_X" vtType="VT_R8" value="320.000004768372"/>
+            <BKAttribute name="TagInfo" vtType="VT_BSTR" value=""/>
+          </BKAttributeGroup>
+        </Calculator>
+      </gcxFunction>
+      <cursor name="Main" visible="1" active="1" align="1" color="4718664" hot="0" style="0" color2="16777215"/>
+      <Main horizontal_line="1" tacho_identification="1"/>
+      <cursor name="Delta" visible="0" active="0" align="1" color="65535" hot="0" style="0" color2="16777215"/>
+      <Delta tacho_identification="1"/>
+      <cursor name="Reference" visible="0" active="0" align="1" color="2263842" hot="0" style="0" color2="16777215"/>
+      <Reference horizontal_line="1" tacho_identification="1"/>
+      <cursor name="Marker1" visible="0" active="0" align="1" color="5275647" hot="0" style="0" color2="16777215"/>
+      <cursor name="Marker2" visible="0" active="0" align="1" color="17919" hot="0" style="0" color2="16777215"/>
+      <cursor name="Harmonic" visible="0" active="0" align="1" color="2237106" hot="0" style="0" color2="16777215"/>
+      <Harmonic show_all_frequencies="1" harmonic_count="10"/>
+      <cursor name="Sideband" visible="0" active="0" align="1" color="3618615" hot="0" style="0" color2="16777215"/>
+      <cursor name="TagCursor" visible="0" active="0" align="1" color="14822282" hot="0" style="0" color2="16777215"/>
+      <TagCursor NextUniqueID="1001" SearchSensitivity="1.5" SearchHalfWidth="9" SearchMaximumExtremaCountWanted="0" LevelFilterEnabled="0" LevelFilterValue="0" TagsortMode="1" TagCursorInfoListCount="0"/>
+      <view name="Default area" state="16" header="0" text="static text" complexEnabled="0" secondaryViewportEnabled="0" secondaryViewportAtBottom="1" percentageTopSubviewport="50" secondaryCoordinateIsPhase="0" secondaryViewportAtBottom_IfPhase="0" percentageTopSubviewport_IfPhase="30" nyquistIsSquare="0"/>
+    </GRAPH_GDI>
+    <XAXIS state="512" unit="Hz" title="" type="0" zoomStart="0" zoomStop="100000" min="0" max="3200" tickstep="0" fixticks="0" lockMin="0" lockMax="0" numDigits="3" trailingZeros="0" numFormat="1" minorTicks="0"/>
+    <YAXIS state="0" unit="" title="" type="1" zoomStart="0" zoomStop="100000" tickstep="0" fixticks="0" tickstepSecondary="30" fixticksSecondary="0" min="0" maxabs="0.37" range="6" scale="20" useNice="1" activeOnly="0" lockMin="0" lockMax="0" numDigits="3" trailingZeros="0" numFormat="1" secondaryMin="0" secondaryMax="1" secondaryIsPhase="1" secondaryLockMin="0" secondaryLockMax="0"/>
+    <YAXIS_2 state="17" unit="" title="" type="5" zoomStart="0" zoomStop="100000" tickstep="0" fixticks="0" tickstepSecondary="30" fixticksSecondary="0" min="0" maxabs="1" range="4" scale="20" useNice="1" activeOnly="0" lockMin="0" lockMax="0" numDigits="3" trailingZeros="0" numFormat="1" secondaryMin="-200" secondaryMax="200" secondaryIsPhase="1" secondaryLockMin="0" secondaryLockMax="0"/>
+    <YAXIS_3 state="17" unit="" title="" type="5" zoomStart="0" zoomStop="100000" tickstep="0" fixticks="0" tickstepSecondary="30" fixticksSecondary="0" min="0" maxabs="1" range="4" scale="20" useNice="1" activeOnly="0" lockMin="0" lockMax="0" numDigits="3" trailingZeros="0" numFormat="1" secondaryMin="-200" secondaryMax="200" secondaryIsPhase="1" secondaryLockMin="0" secondaryLockMax="0"/>
+    <YAXIS_4 state="17" unit="" title="" type="5" zoomStart="0" zoomStop="100000" tickstep="0" fixticks="0" tickstepSecondary="30" fixticksSecondary="0" min="0" maxabs="1" range="4" scale="20" useNice="1" activeOnly="0" lockMin="0" lockMax="0" numDigits="3" trailingZeros="0" numFormat="1" secondaryMin="-200" secondaryMax="200" secondaryIsPhase="1" secondaryLockMin="0" secondaryLockMax="0"/>
+    <YAXIS_5 state="17" unit="" title="" type="5" zoomStart="0" zoomStop="100000" tickstep="0" fixticks="0" tickstepSecondary="30" fixticksSecondary="0" min="0" maxabs="1" range="4" scale="20" useNice="1" activeOnly="0" lockMin="0" lockMax="0" numDigits="3" trailingZeros="0" numFormat="1" secondaryMin="-200" secondaryMax="200" secondaryIsPhase="1" secondaryLockMin="0" secondaryLockMax="0"/>
+    <YAXIS_RIGHT1 state="0" unit="" title="" type="5" zoomStart="0" zoomStop="100000" tickstep="0" fixticks="0" tickstepSecondary="30" fixticksSecondary="0" min="0" maxabs="1" range="4" scale="20" useNice="1" activeOnly="0" lockMin="0" lockMax="0" numDigits="3" trailingZeros="0" numFormat="1" secondaryMin="-200" secondaryMax="200" secondaryIsPhase="1" secondaryLockMin="0" secondaryLockMax="0"/>
+    <YAXIS_RIGHT2 state="17" unit="" title="" type="5" zoomStart="0" zoomStop="100000" tickstep="0" fixticks="0" tickstepSecondary="30" fixticksSecondary="0" min="0" maxabs="1" range="4" scale="20" useNice="1" activeOnly="0" lockMin="0" lockMax="0" numDigits="3" trailingZeros="0" numFormat="1" secondaryMin="-200" secondaryMax="200" secondaryIsPhase="1" secondaryLockMin="0" secondaryLockMax="0"/>
+    <YAXIS_RIGHT3 state="17" unit="" title="" type="5" zoomStart="0" zoomStop="100000" tickstep="0" fixticks="0" tickstepSecondary="30" fixticksSecondary="0" min="0" maxabs="1" range="4" scale="20" useNice="1" activeOnly="0" lockMin="0" lockMax="0" numDigits="3" trailingZeros="0" numFormat="1" secondaryMin="-200" secondaryMax="200" secondaryIsPhase="1" secondaryLockMin="0" secondaryLockMax="0"/>
+    <YAXIS_RIGHT4 state="17" unit="" title="" type="5" zoomStart="0" zoomStop="100000" tickstep="0" fixticks="0" tickstepSecondary="30" fixticksSecondary="0" min="0" maxabs="1" range="4" scale="20" useNice="1" activeOnly="0" lockMin="0" lockMax="0" numDigits="3" trailingZeros="0" numFormat="1" secondaryMin="-200" secondaryMax="200" secondaryIsPhase="1" secondaryLockMin="0" secondaryLockMax="0"/>
+    <YAXIS_RIGHT5 state="17" unit="" title="" type="5" zoomStart="0" zoomStop="100000" tickstep="0" fixticks="0" tickstepSecondary="30" fixticksSecondary="0" min="0" maxabs="1" range="4" scale="20" useNice="1" activeOnly="0" lockMin="0" lockMax="0" numDigits="3" trailingZeros="0" numFormat="1" secondaryMin="-200" secondaryMax="200" secondaryIsPhase="1" secondaryLockMin="0" secondaryLockMax="0"/>
+    <ZAXIS state="0" unit="" title="" type="0" zoomStart="0" zoomStop="100000" min="-1" max="1" lockMin="0" lockMax="0" numDigits="3" trailingZeros="0" numFormat="1"/>
+    <ZAXIS_2 state="17" unit="" title="" type="0" zoomStart="0" zoomStop="100000" min="-1" max="1" lockMin="0" lockMax="0" numDigits="3" trailingZeros="0" numFormat="1"/>
+    <ZAXIS_3 state="17" unit="" title="" type="0" zoomStart="0" zoomStop="100000" min="-1" max="1" lockMin="0" lockMax="0" numDigits="3" trailingZeros="0" numFormat="1"/>
+    <ZAXIS_4 state="17" unit="" title="" type="0" zoomStart="0" zoomStop="100000" min="-1" max="1" lockMin="0" lockMax="0" numDigits="3" trailingZeros="0" numFormat="1"/>
+    <ZAXIS_5 state="17" unit="" title="" type="0" zoomStart="0" zoomStop="100000" min="-1" max="1" lockMin="0" lockMax="0" numDigits="3" trailingZeros="0" numFormat="1"/>
+    <TITLE/>
+    <OVERALL state="0"/>
+    <READOUT state="0" pos="0.825028" hideNA="1" allFunctions="0" fullScreen="0" hideSplitter="0">
+      <DISPSETUP>
+        <attr name="Cursor values" isUserText="1" isTagVector="0" bold="1" italic="0" unique="0"/>
+        <attr name="X: " unit="xAxis" isUserText="0" isTagVector="0" bold="0" italic="0" unique="0" key="1"/>
+        <attr name="Y: " unit="yAxis" isUserText="0" isTagVector="0" bold="0" italic="0" unique="0" key="2"/>
+        <attr name="Z: " unit="zAxis" isUserText="0" isTagVector="0" bold="0" italic="0" unique="0" key="3"/>
+        <attr name="y: " unit="yAxis" key="32"/>
+      </DISPSETUP>
+    </READOUT>
+    <LAYOUT state="0" fixedId="{00000000-0000-0000-0000-000000000000}" mode="1"/>
+    <STRFORMAT state="0"/>
+    <LEGEND state="0">
+      <DISPSETUP>
+        <attr attrName="title" groupName="Buffers" groupType="BKBuffersAttributeGroup"/>
+        <attr attrName="name" groupName="Analyzer" groupType="BKAnalyzerAttributeGroup"/>
+        <body style="7" delimiter=" \ " moved="0"/>
+        <fpos x="0" y="0" cx="0" cy="0"/>
+      </DISPSETUP>
+    </LEGEND>
+    <REGION_SELECTOR state="0" enabled="0" left="0.3" right="0.7" low="0.7" high="0.3" format="3" commandVisibility="526"/>
+    <CurveSmoothing state="0" progid="BKCurveSmoothing.CurveSmoothing">
+      <CurveSmoothing SmoothingType="1" WindowType="1" SmoothingMode="1" Octave="1" Order="1">
+        <Markers/>
+      </CurveSmoothing>
+    </CurveSmoothing>
+    <ReferenceCurve/>
+    <GCXDROP state="0"/>
+  </gcxData>
+</gcxDocument>
